@@ -1,0 +1,1034 @@
+import { Lesson } from '../../types';
+
+export const CHAPTER_2_LESSONS: Lesson[] = [
+  {
+    "id": "k1-b6",
+    "grade": "8",
+    "semester": 1,
+    "chapterNumber": 2,
+    "chapterTitle": "Chương II: Hằng đẳng thức đáng nhớ và ứng dụng",
+    "lessonNumber": 6,
+    "title": "Bài 6. Hiệu hai bình phương. Bình phương của một tổng hay một hiệu",
+    "textbookRef": "Toán 8 KNTT - Bài 6",
+    "summary": "• Hiệu hai bình phương: A² - B² = (A - B)(A + B)\\n• Bình phương của một tổng: (A + B)² = A² + 2AB + B²\\n• Bình phương của một hiệu: (A - B)² = A² - 2AB + B²",
+    "keyFormulas": [
+      "A² - B² = (A - B)(A + B)",
+      "(A + B)² = A² + 2AB + B²",
+      "(A - B)² = A² - 2AB + B²"
+    ],
+    "questions": [
+      {
+        "id": "k1-b6-q1",
+        "question": "Khai triển (x + 3)² ta được kết quả là:",
+        "options": [
+          "x² + 6x + 9",
+          "x² + 3x + 9",
+          "x² + 9",
+          "x² + 6x + 6"
+        ],
+        "correctIndex": 0,
+        "explanation": "(x + 3)² = x² + 2 · 3 · x + 3² = x² + 6x + 9.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Khai triển (x + 5)²:",
+          "options": [
+            "x² + 10x + 25",
+            "x² + 5x + 25",
+            "x² + 25",
+            "x² + 10x + 10"
+          ],
+          "correctIndex": 0,
+          "explanation": "x² + 2·5·x + 25 = x² + 10x + 25."
+        }
+      },
+      {
+        "id": "k1-b6-q2",
+        "question": "Khai triển (2x - 1)² ta được kết quả là:",
+        "options": [
+          "4x² - 4x + 1",
+          "4x² - 2x + 1",
+          "2x² - 4x + 1",
+          "4x² - 1"
+        ],
+        "correctIndex": 0,
+        "explanation": "(2x)² - 2·2x·1 + 1² = 4x² - 4x + 1.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Khai triển (3x - 1)²:",
+          "options": [
+            "9x² - 6x + 1",
+            "9x² - 3x + 1",
+            "3x² - 6x + 1",
+            "9x² - 1"
+          ],
+          "correctIndex": 0,
+          "explanation": "9x² - 6x + 1."
+        }
+      },
+      {
+        "id": "k1-b6-q3",
+        "question": "Viết biểu thức x² - 16 dưới dạng tích:",
+        "options": [
+          "(x - 4)(x + 4)",
+          "(x - 8)(x + 8)",
+          "(x - 4)²",
+          "(x + 4)²"
+        ],
+        "correctIndex": 0,
+        "explanation": "x² - 16 = x² - 4² = (x - 4)(x + 4).",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Viết x² - 25 dưới dạng tích:",
+          "options": [
+            "(x - 5)(x + 5)",
+            "(x - 5)²",
+            "(x + 5)²",
+            "(x - 10)(x + 10)"
+          ],
+          "correctIndex": 0,
+          "explanation": "(x - 5)(x + 5)."
+        }
+      },
+      {
+        "id": "k1-b6-q4",
+        "question": "Biểu thức 4x² - 12x + 9 được viết gọn thành bình phương một hiệu là:",
+        "options": [
+          "(2x - 3)²",
+          "(2x + 3)²",
+          "(4x - 3)²",
+          "(2x - 9)²"
+        ],
+        "correctIndex": 0,
+        "explanation": "(2x)² - 2·2x·3 + 3² = (2x - 3)²",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Viết x² - 6x + 9 thành bình phương một hiệu:",
+          "options": [
+            "(x - 3)²",
+            "(x + 3)²",
+            "(x - 9)²",
+            "(x - 6)²"
+          ],
+          "correctIndex": 0,
+          "explanation": "(x - 3)²."
+        }
+      },
+      {
+        "id": "k1-b6-q5",
+        "question": "Tính nhanh 101² bằng cách áp dụng hằng đẳng thức:",
+        "options": [
+          "10201",
+          "10101",
+          "10200",
+          "10001"
+        ],
+        "correctIndex": 0,
+        "explanation": "(100 + 1)² = 10000 + 200 + 1 = 10201.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Tính nhanh 51²:",
+          "options": [
+            "2601",
+            "2501",
+            "2551",
+            "2610"
+          ],
+          "correctIndex": 0,
+          "explanation": "(50 + 1)² = 2500 + 100 + 1 = 2601."
+        }
+      },
+      {
+        "id": "k1-b6-q6",
+        "question": "Tính nhanh 99² bằng hằng đẳng thức:",
+        "options": [
+          "9801",
+          "9901",
+          "9800",
+          "9701"
+        ],
+        "correctIndex": 0,
+        "explanation": "(100 - 1)² = 10000 - 200 + 1 = 9801.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Tính nhanh 49²:",
+          "options": [
+            "2401",
+            "2501",
+            "2411",
+            "2301"
+          ],
+          "correctIndex": 0,
+          "explanation": "(50 - 1)² = 2500 - 100 + 1 = 2401."
+        }
+      },
+      {
+        "id": "k1-b6-q7",
+        "question": "Tính nhanh 75² - 25²:",
+        "options": [
+          "5000",
+          "2500",
+          "10000",
+          "500"
+        ],
+        "correctIndex": 0,
+        "explanation": "(75 - 25)(75 + 25) = 50 · 100 = 5000.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Tính nhanh 65² - 35²:",
+          "options": [
+            "3000",
+            "6000",
+            "1000",
+            "4500"
+          ],
+          "correctIndex": 0,
+          "explanation": "(65 - 35)(65 + 35) = 30 · 100 = 3000."
+        }
+      },
+      {
+        "id": "k1-b6-q8",
+        "question": "Biểu thức (x - y)² bằng biểu thức nào sau đây?",
+        "options": [
+          "(y - x)²",
+          "-(x - y)²",
+          "x² - y²",
+          "-(y - x)²"
+        ],
+        "correctIndex": 0,
+        "explanation": "(x - y)² = (-(y - x))² = (y - x)².",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Biểu thức (a - b)² bằng:",
+          "options": [
+            "(b - a)²",
+            "-(b - a)²",
+            "a² - b²",
+            "-(a - b)"
+          ],
+          "correctIndex": 0,
+          "explanation": "(b - a)²."
+        }
+      },
+      {
+        "id": "k1-b6-q9",
+        "question": "Tìm x biết x² - 9 = 0:",
+        "options": [
+          "x = 3 hoặc x = -3",
+          "x = 3",
+          "x = -3",
+          "x = 9"
+        ],
+        "correctIndex": 0,
+        "explanation": "(x - 3)(x + 3) = 0 => x = ±3.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Tìm x biết x² - 16 = 0:",
+          "options": [
+            "x = 4 hoặc x = -4",
+            "x = 4",
+            "x = 16",
+            "x = -4"
+          ],
+          "correctIndex": 0,
+          "explanation": "x = ±4."
+        }
+      },
+      {
+        "id": "k1-b6-q10",
+        "question": "Giá trị nhỏ nhất của biểu thức A = x² - 4x + 7 là:",
+        "options": [
+          "3",
+          "7",
+          "4",
+          "0"
+        ],
+        "correctIndex": 0,
+        "explanation": "A = (x - 2)² + 3 ≥ 3 khi x = 2.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Giá trị nhỏ nhất của P = x² - 2x + 5 là:",
+          "options": [
+            "4",
+            "5",
+            "1",
+            "2"
+          ],
+          "correctIndex": 0,
+          "explanation": "(x - 1)² + 4 ≥ 4 khi x = 1."
+        }
+      }
+    ]
+  },
+  {
+    "id": "k1-b7",
+    "grade": "8",
+    "semester": 1,
+    "chapterNumber": 2,
+    "chapterTitle": "Chương II: Hằng đẳng thức đáng nhớ và ứng dụng",
+    "lessonNumber": 7,
+    "title": "Bài 7. Lập phương của một tổng. Lập phương của một hiệu",
+    "textbookRef": "Toán 8 KNTT - Bài 7",
+    "summary": "• Lập phương của một tổng: (A + B)³ = A³ + 3A²B + 3AB² + B³\\n• Lập phương của một hiệu: (A - B)³ = A³ - 3A²B + 3AB² - B³",
+    "keyFormulas": [
+      "(A + B)³ = A³ + 3A²B + 3AB² + B³",
+      "(A - B)³ = A³ - 3A²B + 3AB² - B³"
+    ],
+    "questions": [
+      {
+        "id": "k1-b7-q1",
+        "question": "Khai triển (x + 1)³ ta được kết quả là:",
+        "options": [
+          "x³ + 3x² + 3x + 1",
+          "x³ + x² + x + 1",
+          "x³ + 3x + 1",
+          "x³ + 1"
+        ],
+        "correctIndex": 0,
+        "explanation": "(x + 1)³ = x³ + 3x²·1 + 3x·1² + 1³ = x³ + 3x² + 3x + 1.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Khai triển (x + 2)³:",
+          "options": [
+            "x³ + 6x² + 12x + 8",
+            "x³ + 2x² + 4x + 8",
+            "x³ + 6x + 8",
+            "x³ + 8"
+          ],
+          "correctIndex": 0,
+          "explanation": "x³ + 3·2·x² + 3·4·x + 8 = x³ + 6x² + 12x + 8."
+        }
+      },
+      {
+        "id": "k1-b7-q2",
+        "question": "Khai triển (x - 1)³ ta được kết quả là:",
+        "options": [
+          "x³ - 3x² + 3x - 1",
+          "x³ - 3x² - 3x - 1",
+          "x³ - x² + x - 1",
+          "x³ - 1"
+        ],
+        "correctIndex": 0,
+        "explanation": "(x - 1)³ = x³ - 3x² + 3x - 1.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Khai triển (x - 2)³:",
+          "options": [
+            "x³ - 6x² + 12x - 8",
+            "x³ - 6x² - 12x - 8",
+            "x³ - 8",
+            "x³ - 2x² + 4x - 8"
+          ],
+          "correctIndex": 0,
+          "explanation": "x³ - 6x² + 12x - 8."
+        }
+      },
+      {
+        "id": "k1-b7-q3",
+        "question": "Viết biểu thức x³ + 6x² + 12x + 8 dưới dạng lập phương của một tổng:",
+        "options": [
+          "(x + 2)³",
+          "(x + 4)³",
+          "(x + 8)³",
+          "(2x + 1)³"
+        ],
+        "correctIndex": 0,
+        "explanation": "x³ + 3·x²·2 + 3·x·2² + 2³ = (x + 2)³.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Viết x³ + 3x² + 3x + 1 dưới dạng lập phương:",
+          "options": [
+            "(x + 1)³",
+            "(x + 3)³",
+            "(x - 1)³",
+            "(3x + 1)³"
+          ],
+          "correctIndex": 0,
+          "explanation": "(x + 1)³."
+        }
+      },
+      {
+        "id": "k1-b7-q4",
+        "question": "Viết x³ - 3x² + 3x - 1 dưới dạng lập phương của một hiệu:",
+        "options": [
+          "(x - 1)³",
+          "(x + 1)³",
+          "(1 - x)³",
+          "(x - 3)³"
+        ],
+        "correctIndex": 0,
+        "explanation": "(x - 1)³.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Viết x³ - 6x² + 12x - 8 thành lập phương:",
+          "options": [
+            "(x - 2)³",
+            "(x + 2)³",
+            "(x - 8)³",
+            "(2x - 1)³"
+          ],
+          "correctIndex": 0,
+          "explanation": "(x - 2)³."
+        }
+      },
+      {
+        "id": "k1-b7-q5",
+        "question": "Tính giá trị của P = x³ + 3x² + 3x + 1 tại x = 99:",
+        "options": [
+          "1000000",
+          "100000",
+          "990000",
+          "10000"
+        ],
+        "correctIndex": 0,
+        "explanation": "P = (x + 1)³ = (99 + 1)³ = 100³ = 1 000 000.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Tính P = x³ + 3x² + 3x + 1 tại x = 9:",
+          "options": [
+            "1000",
+            "100",
+            "10000",
+            "729"
+          ],
+          "correctIndex": 0,
+          "explanation": "(9 + 1)³ = 10³ = 1000."
+        }
+      },
+      {
+        "id": "k1-b7-q6",
+        "question": "Tính giá trị của Q = x³ - 3x² + 3x - 1 tại x = 101:",
+        "options": [
+          "1000000",
+          "100000",
+          "10000",
+          "101000"
+        ],
+        "correctIndex": 0,
+        "explanation": "Q = (x - 1)³ = (101 - 1)³ = 100³ = 1 000 000.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Tính Q = x³ - 3x² + 3x - 1 tại x = 11:",
+          "options": [
+            "1000",
+            "100",
+            "1100",
+            "1331"
+          ],
+          "correctIndex": 0,
+          "explanation": "(11 - 1)³ = 10³ = 1000."
+        }
+      },
+      {
+        "id": "k1-b7-q7",
+        "question": "Biểu thức (2x + y)³ khai triển có hệ số của x²y là:",
+        "options": [
+          "12",
+          "6",
+          "4",
+          "8"
+        ],
+        "correctIndex": 0,
+        "explanation": "3 · (2x)² · y = 3 · 4x² · y = 12x²y. Hệ số là 12.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Hệ số của xy² trong khai triển (x + 2y)³ là:",
+          "options": [
+            "12",
+            "6",
+            "4",
+            "8"
+          ],
+          "correctIndex": 0,
+          "explanation": "3 · x · (2y)² = 12xy². Hệ số là 12."
+        }
+      },
+      {
+        "id": "k1-b7-q8",
+        "question": "Hằng đẳng thức nào sau đây là SAI?",
+        "options": [
+          "(a - b)³ = a³ - b³",
+          "(a + b)³ = a³ + 3a²b + 3ab² + b³",
+          "(a - b)³ = -(b - a)³",
+          "(a + b)³ = a³ + b³ + 3ab(a + b)"
+        ],
+        "correctIndex": 0,
+        "explanation": "(a - b)³ = a³ - 3a²b + 3ab² - b³ ≠ a³ - b³.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Hằng đẳng thức nào sau đây đúng?",
+          "options": [
+            "(a - b)³ = -(b - a)³",
+            "(a - b)³ = (b - a)³",
+            "(a + b)³ = a³ + b³",
+            "(a - b)³ = a³ - b³"
+          ],
+          "correctIndex": 0,
+          "explanation": "Vì mũ lẻ nên (a - b)³ = -(b - a)³."
+        }
+      },
+      {
+        "id": "k1-b7-q9",
+        "question": "Rút gọn biểu thức (x + 1)³ - (x - 1)³ - 6x²:",
+        "options": [
+          "2",
+          "0",
+          "6x",
+          "2x³"
+        ],
+        "correctIndex": 0,
+        "explanation": "(x³ + 3x² + 3x + 1) - (x³ - 3x² + 3x - 1) - 6x² = 6x² + 2 - 6x² = 2.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Rút gọn (x + 1)³ - (x - 1)³:",
+          "options": [
+            "6x² + 2",
+            "6x²",
+            "2",
+            "2x³ + 6x"
+          ],
+          "correctIndex": 0,
+          "explanation": "6x² + 2."
+        }
+      },
+      {
+        "id": "k1-b7-q10",
+        "question": "Dạng thu gọn của a³ + b³ + 3ab(a + b) là:",
+        "options": [
+          "(a + b)³",
+          "(a - b)³",
+          "a³ + b³",
+          "(a + b)²"
+        ],
+        "correctIndex": 0,
+        "explanation": "Đó chính là dạng viết lại của hằng đẳng thức (a + b)³.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Dạng thu gọn của a³ - b³ - 3ab(a - b) là:",
+          "options": [
+            "(a - b)³",
+            "(a + b)³",
+            "a³ - b³",
+            "(a - b)²"
+          ],
+          "correctIndex": 0,
+          "explanation": "(a - b)³."
+        }
+      }
+    ]
+  },
+  {
+    "id": "k1-b8",
+    "grade": "8",
+    "semester": 1,
+    "chapterNumber": 2,
+    "chapterTitle": "Chương II: Hằng đẳng thức đáng nhớ và ứng dụng",
+    "lessonNumber": 8,
+    "title": "Bài 8. Tổng và hiệu hai lập phương",
+    "textbookRef": "Toán 8 KNTT - Bài 8",
+    "summary": "• Tổng hai lập phương: A³ + B³ = (A + B)(A² - AB + B²)\\n• Hiệu hai lập phương: A³ - B³ = (A - B)(A² + AB + B²)\\n• A² - AB + B² gọi là bình phương thiếu của hiệu, A² + AB + B² là bình phương thiếu của tổng.",
+    "keyFormulas": [
+      "A³ + B³ = (A + B)(A² - AB + B²)",
+      "A³ - B³ = (A - B)(A² + AB + B²)"
+    ],
+    "questions": [
+      {
+        "id": "k1-b8-q1",
+        "question": "Viết x³ + 8 dưới dạng tích:",
+        "options": [
+          "(x + 2)(x² - 2x + 4)",
+          "(x + 2)(x² + 2x + 4)",
+          "(x - 2)(x² + 2x + 4)",
+          "(x + 2)³"
+        ],
+        "correctIndex": 0,
+        "explanation": "x³ + 2³ = (x + 2)(x² - 2x + 4).",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Viết x³ + 27 dưới dạng tích:",
+          "options": [
+            "(x + 3)(x² - 3x + 9)",
+            "(x + 3)(x² + 3x + 9)",
+            "(x - 3)(x² + 3x + 9)",
+            "(x + 3)³"
+          ],
+          "correctIndex": 0,
+          "explanation": "(x + 3)(x² - 3x + 9)."
+        }
+      },
+      {
+        "id": "k1-b8-q2",
+        "question": "Viết x³ - 1 dưới dạng tích:",
+        "options": [
+          "(x - 1)(x² + x + 1)",
+          "(x - 1)(x² - x + 1)",
+          "(x + 1)(x² - x + 1)",
+          "(x - 1)³"
+        ],
+        "correctIndex": 0,
+        "explanation": "x³ - 1³ = (x - 1)(x² + x + 1).",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Viết x³ - 8 dưới dạng tích:",
+          "options": [
+            "(x - 2)(x² + 2x + 4)",
+            "(x - 2)(x² - 2x + 4)",
+            "(x + 2)(x² - 2x + 4)",
+            "(x - 2)³"
+          ],
+          "correctIndex": 0,
+          "explanation": "(x - 2)(x² + 2x + 4)."
+        }
+      },
+      {
+        "id": "k1-b8-q3",
+        "question": "Khai triển tích (x + 1)(x² - x + 1) ta được:",
+        "options": [
+          "x³ + 1",
+          "x³ - 1",
+          "(x + 1)³",
+          "x³ + 3"
+        ],
+        "correctIndex": 0,
+        "explanation": "Đây là hằng đẳng thức tổng hai lập phương: x³ + 1.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Khai triển (x - 1)(x² + x + 1):",
+          "options": [
+            "x³ - 1",
+            "x³ + 1",
+            "(x - 1)³",
+            "x² - 1"
+          ],
+          "correctIndex": 0,
+          "explanation": "x³ - 1."
+        }
+      },
+      {
+        "id": "k1-b8-q4",
+        "question": "Biểu thức nào là bình phương thiếu của tổng A và B?",
+        "options": [
+          "A² + AB + B²",
+          "A² - AB + B²",
+          "A² + 2AB + B²",
+          "A² - 2AB + B²"
+        ],
+        "correctIndex": 0,
+        "explanation": "A² + AB + B² thiếu hệ số 2 so với (A + B)² nên gọi là bình phương thiếu của tổng.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Biểu thức bình phương thiếu của hiệu A và B là:",
+          "options": [
+            "A² - AB + B²",
+            "A² + AB + B²",
+            "A² - 2AB + B²",
+            "A² + B²"
+          ],
+          "correctIndex": 0,
+          "explanation": "A² - AB + B²."
+        }
+      },
+      {
+        "id": "k1-b8-q5",
+        "question": "Tính giá trị của M = (x - 3)(x² + 3x + 9) tại x = 4:",
+        "options": [
+          "37",
+          "27",
+          "64",
+          "1"
+        ],
+        "correctIndex": 0,
+        "explanation": "M = x³ - 27 = 4³ - 27 = 64 - 27 = 37.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Tính (x + 2)(x² - 2x + 4) tại x = 3:",
+          "options": [
+            "35",
+            "27",
+            "8",
+            "33"
+          ],
+          "correctIndex": 0,
+          "explanation": "x³ + 8 = 3³ + 8 = 27 + 8 = 35."
+        }
+      },
+      {
+        "id": "k1-b8-q6",
+        "question": "Viết 8x³ - y³ dưới dạng tích:",
+        "options": [
+          "(2x - y)(4x² + 2xy + y²)",
+          "(2x - y)(4x² - 2xy + y²)",
+          "(2x + y)(4x² - 2xy + y²)",
+          "(2x - y)³"
+        ],
+        "correctIndex": 0,
+        "explanation": "(2x)³ - y³ = (2x - y)(4x² + 2xy + y²).",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Viết 27x³ + 1 dưới dạng tích:",
+          "options": [
+            "(3x + 1)(9x² - 3x + 1)",
+            "(3x + 1)(9x² + 3x + 1)",
+            "(3x - 1)(9x² + 3x + 1)",
+            "(3x + 1)³"
+          ],
+          "correctIndex": 0,
+          "explanation": "(3x + 1)(9x² - 3x + 1)."
+        }
+      },
+      {
+        "id": "k1-b8-q7",
+        "question": "Rút gọn (x - 2)(x² + 2x + 4) - x³:",
+        "options": [
+          "-8",
+          "8",
+          "0",
+          "-4"
+        ],
+        "correctIndex": 0,
+        "explanation": "x³ - 8 - x³ = -8.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Rút gọn (x + 3)(x² - 3x + 9) - x³:",
+          "options": [
+            "27",
+            "-27",
+            "9",
+            "0"
+          ],
+          "correctIndex": 0,
+          "explanation": "27."
+        }
+      },
+      {
+        "id": "k1-b8-q8",
+        "question": "Tìm x biết (x - 1)(x² + x + 1) = 7:",
+        "options": [
+          "x = 2",
+          "x = -2",
+          "x = 8",
+          "x = 1"
+        ],
+        "correctIndex": 0,
+        "explanation": "x³ - 1 = 7 => x³ = 8 => x = 2.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Tìm x biết (x + 1)(x² - x + 1) = 28:",
+          "options": [
+            "x = 3",
+            "x = -3",
+            "x = 2",
+            "x = 4"
+          ],
+          "correctIndex": 0,
+          "explanation": "x³ + 1 = 28 => x³ = 27 => x = 3."
+        }
+      },
+      {
+        "id": "k1-b8-q9",
+        "question": "Với mọi x, giá trị biểu thức x² - x + 1 luôn:",
+        "options": [
+          "Dương (> 0)",
+          "Âm (< 0)",
+          "Bằng 0",
+          "Tùy giá trị x"
+        ],
+        "correctIndex": 0,
+        "explanation": "x² - x + 1 = (x - 1/2)² + 3/4 > 0 với mọi x.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Giá trị biểu thức x² + x + 1 luôn:",
+          "options": [
+            "Dương (> 0)",
+            "Âm (< 0)",
+            "Bằng 0",
+            "Nhỏ hơn 1"
+          ],
+          "correctIndex": 0,
+          "explanation": "(x + 1/2)² + 3/4 > 0."
+        }
+      },
+      {
+        "id": "k1-b8-q10",
+        "question": "Hiệu a³ - b³ chia cho (a - b) được thương là:",
+        "options": [
+          "a² + ab + b²",
+          "a² - ab + b²",
+          "a² + 2ab + b²",
+          "(a - b)²"
+        ],
+        "correctIndex": 0,
+        "explanation": "a³ - b³ = (a - b)(a² + ab + b²).",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Tổng a³ + b³ chia cho (a + b) được:",
+          "options": [
+            "a² - ab + b²",
+            "a² + ab + b²",
+            "(a + b)²",
+            "a² + b²"
+          ],
+          "correctIndex": 0,
+          "explanation": "a² - ab + b²."
+        }
+      }
+    ]
+  },
+  {
+    "id": "k1-b9",
+    "grade": "8",
+    "semester": 1,
+    "chapterNumber": 2,
+    "chapterTitle": "Chương II: Hằng đẳng thức đáng nhớ và ứng dụng",
+    "lessonNumber": 9,
+    "title": "Bài 9. Phân tích đa thức thành nhân tử",
+    "textbookRef": "Toán 8 KNTT - Bài 9",
+    "summary": "• Phân tích đa thức thành nhân tử (thừa số) là biến đổi đa thức đó thành tích của những đa thức.\\n• Các phương pháp cơ bản:\\n  1. Đặt nhân tử chung: A · B + A · C = A(B + C).\\n  2. Dùng hằng đẳng thức.\\n  3. Nhóm hạng tử.\\n  4. Phối hợp nhiều phương pháp.",
+    "keyFormulas": [
+      "A·B + A·C = A(B + C)",
+      "A² - B² = (A - B)(A + B)",
+      "A² ± 2AB + B² = (A ± B)²"
+    ],
+    "questions": [
+      {
+        "id": "k1-b9-q1",
+        "question": "Phân tích đa thức 2x² - 4x thành nhân tử:",
+        "options": [
+          "2x(x - 2)",
+          "2(x² - 2)",
+          "x(2x - 4)",
+          "2x(x - 4)"
+        ],
+        "correctIndex": 0,
+        "explanation": "Đặt nhân tử chung 2x: 2x(x - 2).",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Phân tích 3x² + 6x thành nhân tử:",
+          "options": [
+            "3x(x + 2)",
+            "3(x² + 2x)",
+            "x(3x + 6)",
+            "3x(x + 6)"
+          ],
+          "correctIndex": 0,
+          "explanation": "3x(x + 2)."
+        }
+      },
+      {
+        "id": "k1-b9-q2",
+        "question": "Phân tích x² - 4y² thành nhân tử:",
+        "options": [
+          "(x - 2y)(x + 2y)",
+          "(x - 4y)(x + 4y)",
+          "(x - 2y)²",
+          "(x + 2y)²"
+        ],
+        "correctIndex": 0,
+        "explanation": "x² - (2y)² = (x - 2y)(x + 2y).",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Phân tích 4x² - 9 thành nhân tử:",
+          "options": [
+            "(2x - 3)(2x + 3)",
+            "(4x - 9)(4x + 9)",
+            "(2x - 3)²",
+            "(4x - 3)(4x + 3)"
+          ],
+          "correctIndex": 0,
+          "explanation": "(2x - 3)(2x + 3)."
+        }
+      },
+      {
+        "id": "k1-b9-q3",
+        "question": "Phân tích x² - 2xy + y² - 4 thành nhân tử:",
+        "options": [
+          "(x - y - 2)(x - y + 2)",
+          "(x - y - 4)(x - y + 4)",
+          "(x - y - 2)²",
+          "(x + y - 2)(x + y + 2)"
+        ],
+        "correctIndex": 0,
+        "explanation": "(x - y)² - 2² = (x - y - 2)(x - y + 2).",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Phân tích x² + 2xy + y² - 9:",
+          "options": [
+            "(x + y - 3)(x + y + 3)",
+            "(x + y - 9)(x + y + 9)",
+            "(x - y - 3)(x - y + 3)",
+            "(x + y - 3)²"
+          ],
+          "correctIndex": 0,
+          "explanation": "(x + y - 3)(x + y + 3)."
+        }
+      },
+      {
+        "id": "k1-b9-q4",
+        "question": "Phân tích đa thức x² - xy + x - y thành nhân tử:",
+        "options": [
+          "(x - y)(x + 1)",
+          "(x - y)(x - 1)",
+          "(x + y)(x + 1)",
+          "(x + y)(x - 1)"
+        ],
+        "correctIndex": 0,
+        "explanation": "x(x - y) + (x - y) = (x - y)(x + 1).",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Phân tích a² + ab + a + b:",
+          "options": [
+            "(a + b)(a + 1)",
+            "(a + b)(a - 1)",
+            "(a - b)(a + 1)",
+            "(a + b)²"
+          ],
+          "correctIndex": 0,
+          "explanation": "(a + b)(a + 1)."
+        }
+      },
+      {
+        "id": "k1-b9-q5",
+        "question": "Tìm x biết 2x(x - 3) + x - 3 = 0:",
+        "options": [
+          "x = 3 hoặc x = -1/2",
+          "x = 3 hoặc x = 1/2",
+          "x = -3 hoặc x = -1/2",
+          "x = 3"
+        ],
+        "correctIndex": 0,
+        "explanation": "(x - 3)(2x + 1) = 0 => x = 3 hoặc x = -1/2.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Tìm x biết x(x - 2) + x - 2 = 0:",
+          "options": [
+            "x = 2 hoặc x = -1",
+            "x = 2 hoặc x = 1",
+            "x = -2",
+            "x = 1"
+          ],
+          "correctIndex": 0,
+          "explanation": "(x - 2)(x + 1) = 0 => x = 2 hoặc x = -1."
+        }
+      },
+      {
+        "id": "k1-b9-q6",
+        "question": "Phân tích x³ - x thành nhân tử:",
+        "options": [
+          "x(x - 1)(x + 1)",
+          "x(x² - 1)",
+          "(x - 1)(x² + 1)",
+          "x²(x - 1)"
+        ],
+        "correctIndex": 0,
+        "explanation": "x(x² - 1) = x(x - 1)(x + 1).",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Phân tích x³ - 4x:",
+          "options": [
+            "x(x - 2)(x + 2)",
+            "x(x² - 4)",
+            "(x - 2)(x² + 2)",
+            "x²(x - 4)"
+          ],
+          "correctIndex": 0,
+          "explanation": "x(x - 2)(x + 2)."
+        }
+      },
+      {
+        "id": "k1-b9-q7",
+        "question": "Phân tích đa thức x² - 5x + 6 thành nhân tử:",
+        "options": [
+          "(x - 2)(x - 3)",
+          "(x - 1)(x - 6)",
+          "(x + 2)(x + 3)",
+          "(x + 1)(x + 6)"
+        ],
+        "correctIndex": 0,
+        "explanation": "Tách -5x = -2x - 3x => x(x - 2) - 3(x - 2) = (x - 2)(x - 3).",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Phân tích x² - 7x + 12 thành nhân tử:",
+          "options": [
+            "(x - 3)(x - 4)",
+            "(x - 2)(x - 6)",
+            "(x + 3)(x + 4)",
+            "(x - 1)(x - 12)"
+          ],
+          "correctIndex": 0,
+          "explanation": "(x - 3)(x - 4)."
+        }
+      },
+      {
+        "id": "k1-b9-q8",
+        "question": "Giá trị của biểu thức A = x² - y² tại x = 87, y = 13 là:",
+        "options": [
+          "7400",
+          "1000",
+          "740",
+          "10000"
+        ],
+        "correctIndex": 0,
+        "explanation": "(x - y)(x + y) = (87 - 13)(87 + 13) = 74 · 100 = 7400.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Tính x² - y² tại x = 95, y = 5:",
+          "options": [
+            "9000",
+            "900",
+            "10000",
+            "8000"
+          ],
+          "correctIndex": 0,
+          "explanation": "(95 - 5)(95 + 5) = 90 · 100 = 9000."
+        }
+      },
+      {
+        "id": "k1-b9-q9",
+        "question": "Nhân tử chung của 5x²(x - 2y) - 15x(x - 2y) là:",
+        "options": [
+          "5x(x - 2y)",
+          "5(x - 2y)",
+          "x(x - 2y)",
+          "15x(x - 2y)"
+        ],
+        "correctIndex": 0,
+        "explanation": "UCLN(5x², 15x) = 5x và phần chung (x - 2y).",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Nhân tử chung của 6a(b - 1) + 2(b - 1) là:",
+          "options": [
+            "2(b - 1)",
+            "b - 1",
+            "6(b - 1)",
+            "2a(b - 1)"
+          ],
+          "correctIndex": 0,
+          "explanation": "2(b - 1)."
+        }
+      },
+      {
+        "id": "k1-b9-q10",
+        "question": "Biết x + y = 5 và xy = 6. Giá trị của x³ + y³ là:",
+        "options": [
+          "35",
+          "125",
+          "95",
+          "65"
+        ],
+        "correctIndex": 0,
+        "explanation": "x³ + y³ = (x + y)³ - 3xy(x + y) = 5³ - 3 · 6 · 5 = 125 - 90 = 35.",
+        "hasDiagram": false,
+        "similarQuestion": {
+          "question": "Biết x + y = 4 và xy = 3. Tính x² + y²:",
+          "options": [
+            "10",
+            "16",
+            "13",
+            "7"
+          ],
+          "correctIndex": 0,
+          "explanation": "(x + y)² - 2xy = 16 - 6 = 10."
+        }
+      }
+    ]
+  }
+];

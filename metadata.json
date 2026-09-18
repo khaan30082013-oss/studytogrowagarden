@@ -1,0 +1,6 @@
+{
+  "name": "𖧷₊˚˖𓍢ִ🍓✧Học trồng vườn˚.🎀༘⋆ﾟ＊",
+  "description": "Ứng dụng Học trồng vườn kết hợp học Toán lớp 8 với chăm sóc khu vườn, làm bài tập nhận xu và phát triển nông trại sinh động.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
