@@ -41,8 +41,8 @@ export const Navbar: React.FC<NavbarProps> = ({
             🍓
           </div>
           <div>
-            <h1 className="font-extrabold text-lg sm:text-xl tracking-tight text-emerald-950 flex items-center gap-1">
-              <span>𖧷₊˚˖𓍢ִ🍓✧Học trồng vườn˚.🎀༘⋆ﾟ＊</span>
+            <h1 className="font-extrabold text-lg sm:text-xl tracking-tight text-emerald-950 flex items-center gap-1.5">
+              <span>𖧷₊˚˖𓍢ִ🍓✧study to grow a garden˚.🎀༘⋆ﾟ＊</span>
             </h1>
             <p className="text-xs text-emerald-800 font-semibold hidden sm:block">
               Học Toán 8 Kết Nối Tri Thức &amp; Nông Trại Tri Thức Xanh

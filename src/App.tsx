@@ -5,6 +5,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { UserProfile, Lesson, LessonLog, GardenPlot, PlacedDecoration } from './types';
+import { createDefaultGardenPlots } from './data/gardenItems';
 import { Navbar } from './components/Navbar';
 import { GardenOverview } from './components/GardenOverview';
 import { CurriculumView } from './components/CurriculumView';
@@ -20,15 +21,6 @@ import { Flame, Sparkles, AlertCircle, X } from 'lucide-react';
 
 const LOCAL_STORAGE_KEY = 'hoc_trong_vuon_users_v2';
 const ACTIVE_USER_KEY = 'hoc_trong_vuon_active_user_v2';
-
-const INITIAL_PLOTS: GardenPlot[] = [
-  { id: 1, growthMinutes: 20 },
-  { id: 2, growthMinutes: 20 },
-  { id: 3, growthMinutes: 20 },
-  { id: 4, growthMinutes: 20 },
-  { id: 5, growthMinutes: 20 },
-  { id: 6, growthMinutes: 20 },
-];
 
 export default function App() {
   // Load saved accounts from localStorage
@@ -51,27 +43,37 @@ export default function App() {
   // Active user profile
   const [user, setUser] = useState<UserProfile>(() => {
     if (activeUserName && allUsers[activeUserName]) {
-      return allUsers[activeUserName];
+      const saved = allUsers[activeUserName];
+      if (!saved.plots || saved.plots.length !== 30) {
+        return {
+          ...saved,
+          plots: createDefaultGardenPlots(),
+        };
+      }
+      return saved;
     }
-    // Default demo student
+    // Default demo student matching screenshot
     return {
       name: 'Bạn Học Sinh',
       avatar: '🌱',
-      coins: 100, // 100 xu Chào mừng
-      xp: 0,
+      coins: 120,
+      xp: 45,
       level: 1,
       streak: 1,
       lastStudyDate: new Date().toISOString().split('T')[0],
       isStreakBroken: false,
       soundEnabled: true,
-      fontSize: 'normal', // 18px minimum
+      fontSize: 'normal',
       hasSeenOnboarding: false,
       inventory: {
-        'seed-carrot': 3, // starter seed pack
-        'seed-strawberry': 2,
-        'dec-flower': 1,
+        'seed-blueberry': 3,
+        'seed-carrot': 5,
+        'seed-strawberry': 4,
+        'dec-lamp': 1,
+        'dec-pond': 1,
+        'dec-bench': 1,
       },
-      plots: INITIAL_PLOTS,
+      plots: createDefaultGardenPlots(),
       decorations: [],
       completedLessons: [],
     };
@@ -137,10 +139,14 @@ export default function App() {
         fontSize: 'normal',
         hasSeenOnboarding: false,
         inventory: {
-          'seed-carrot': 3,
-          'seed-strawberry': 2,
+          'seed-blueberry': 3,
+          'seed-carrot': 5,
+          'seed-strawberry': 4,
+          'dec-lamp': 1,
+          'dec-pond': 1,
+          'dec-bench': 1,
         },
-        plots: INITIAL_PLOTS,
+        plots: createDefaultGardenPlots(),
         decorations: [],
         completedLessons: [],
       };

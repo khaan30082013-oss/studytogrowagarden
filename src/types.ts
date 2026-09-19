@@ -54,12 +54,20 @@ export interface DecorationItem {
   description: string;
 }
 
+export type GardenTileType = 'soil' | 'grass' | 'stone';
+
 export interface GardenPlot {
   id: number;
+  row?: number;
+  col?: number;
+  tileType?: GardenTileType;
   plantedSeedId?: string;
   plantedAt?: number; // timestamp
   growthMinutes: number;
   isWatered?: boolean;
+  decorationId?: string;
+  decorationName?: string;
+  decorationIcon?: string;
 }
 
 export interface PlacedDecoration {

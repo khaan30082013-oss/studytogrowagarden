@@ -1,4 +1,4 @@
-import { SeedItem, DecorationItem } from '../types';
+import { SeedItem, DecorationItem, GardenPlot } from '../types';
 
 export const SEEDS: SeedItem[] = [
   {
@@ -152,3 +152,47 @@ export const DEFAULT_AVATARS = [
   { id: 'av-7', label: 'Thỏ thông thái', emoji: '🐰' },
   { id: 'av-8', label: 'Cú thông thái', emoji: '🦉' },
 ];
+
+export function createDefaultGardenPlots(): GardenPlot[] {
+  return [
+    // Row 0 (id 0 - 5)
+    { id: 0, row: 0, col: 0, tileType: 'soil', growthMinutes: 20, plantedSeedId: 'seed-blueberry', plantedAt: Date.now() - 21 * 60 * 1000, isWatered: true },
+    { id: 1, row: 0, col: 1, tileType: 'soil', growthMinutes: 20 },
+    { id: 2, row: 0, col: 2, tileType: 'soil', growthMinutes: 20 },
+    { id: 3, row: 0, col: 3, tileType: 'grass', growthMinutes: 20 },
+    { id: 4, row: 0, col: 4, tileType: 'grass', growthMinutes: 20 },
+    { id: 5, row: 0, col: 5, tileType: 'grass', growthMinutes: 20, decorationId: 'dec-lamp', decorationName: 'Đèn', decorationIcon: '🏮' },
+
+    // Row 1 (id 6 - 11)
+    { id: 6, row: 1, col: 0, tileType: 'grass', growthMinutes: 20, decorationId: 'dec-pond', decorationName: 'Hồ', decorationIcon: '🌊' },
+    { id: 7, row: 1, col: 1, tileType: 'soil', growthMinutes: 20 },
+    { id: 8, row: 1, col: 2, tileType: 'soil', growthMinutes: 20 },
+    { id: 9, row: 1, col: 3, tileType: 'soil', growthMinutes: 20 },
+    { id: 10, row: 1, col: 4, tileType: 'soil', growthMinutes: 20 },
+    { id: 11, row: 1, col: 5, tileType: 'grass', growthMinutes: 20, decorationId: 'dec-bench', decorationName: 'Ghế', decorationIcon: '🪑' },
+
+    // Row 2 (id 12 - 17)
+    { id: 12, row: 2, col: 0, tileType: 'stone', growthMinutes: 20 },
+    { id: 13, row: 2, col: 1, tileType: 'soil', growthMinutes: 20 },
+    { id: 14, row: 2, col: 2, tileType: 'soil', growthMinutes: 20 },
+    { id: 15, row: 2, col: 3, tileType: 'soil', growthMinutes: 20 },
+    { id: 16, row: 2, col: 4, tileType: 'soil', growthMinutes: 20 },
+    { id: 17, row: 2, col: 5, tileType: 'stone', growthMinutes: 20 },
+
+    // Row 3 (id 18 - 23)
+    { id: 18, row: 3, col: 0, tileType: 'grass', growthMinutes: 20 },
+    { id: 19, row: 3, col: 1, tileType: 'soil', growthMinutes: 20 },
+    { id: 20, row: 3, col: 2, tileType: 'soil', growthMinutes: 20 },
+    { id: 21, row: 3, col: 3, tileType: 'soil', growthMinutes: 20 },
+    { id: 22, row: 3, col: 4, tileType: 'soil', growthMinutes: 20 },
+    { id: 23, row: 3, col: 5, tileType: 'grass', growthMinutes: 20 },
+
+    // Row 4 (id 24 - 29)
+    { id: 24, row: 4, col: 0, tileType: 'grass', growthMinutes: 20 },
+    { id: 25, row: 4, col: 1, tileType: 'grass', growthMinutes: 20 },
+    { id: 26, row: 4, col: 2, tileType: 'grass', growthMinutes: 20 },
+    { id: 27, row: 4, col: 3, tileType: 'grass', growthMinutes: 20 },
+    { id: 28, row: 4, col: 4, tileType: 'grass', growthMinutes: 20 },
+    { id: 29, row: 4, col: 5, tileType: 'grass', growthMinutes: 20 },
+  ];
+}

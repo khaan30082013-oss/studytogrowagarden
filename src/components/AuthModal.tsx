@@ -47,7 +47,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
             {mode === 'login' ? 'Đăng Nhập Tài Khoản Học Sinh' : 'Tạo Tài Khoản Mới'}
           </h3>
           <p className="text-xs sm:text-sm font-semibold text-emerald-800 mt-1">
-            𖧷₊˚˖𓍢ִ🍓✧Học trồng vườn˚.🎀༘⋆ﾟ＊
+            𖧷₊˚˖𓍢ִ🍓✧study to grow a garden˚.🎀༘⋆ﾟ＊
           </p>
         </div>
 

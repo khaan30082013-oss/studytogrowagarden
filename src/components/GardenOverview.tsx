@@ -89,7 +89,7 @@ export const GardenOverview: React.FC<GardenOverviewProps> = ({
             <span>✧ NÔNG TRẠI TOÁN HỌC LỚP 8 ✧</span>
           </div>
           <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-emerald-950 tracking-tight leading-snug">
-            “ 𖧷₊˚˖𓍢ִ🍓✧Học trồng vườn˚.🎀༘⋆ﾟ＊ ”
+            “ 𖧷₊˚˖𓍢ִ🍓✧study to grow a garden˚.🎀༘⋆ﾟ＊ ”
           </h2>
           <p className="mt-2 text-sm sm:text-base font-semibold text-slate-800 max-w-lg mx-auto">
             Học từng bài học Toán 8, giải 10 câu hỏi để nhận Xu &amp; XP, chăm sóc luống rau củ và xây dựng khu vườn trong mơ!
