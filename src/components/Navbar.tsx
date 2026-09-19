@@ -34,11 +34,16 @@ export const Navbar: React.FC<NavbarProps> = ({
         {/* Title & Brand */}
         <div 
           onClick={() => handleTabClick('garden')} 
-          className="flex items-center gap-2 cursor-pointer group"
+          className="flex items-center gap-2.5 cursor-pointer group"
           title="Về trang chủ khu vườn"
         >
-          <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-emerald-500 to-green-600 flex items-center justify-center text-2xl shadow-sm group-hover:scale-105 transition-transform">
-            🍓
+          <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-full overflow-hidden shadow-md border-2 border-emerald-400 group-hover:scale-105 transition-transform shrink-0 bg-emerald-50">
+            <img 
+              src="/avatar.jpg" 
+              alt="Avatar Study to Grow a Garden" 
+              className="w-full h-full object-cover"
+              referrerPolicy="no-referrer"
+            />
           </div>
           <div>
             <h1 className="font-extrabold text-lg sm:text-xl tracking-tight text-emerald-950 flex items-center gap-1.5">

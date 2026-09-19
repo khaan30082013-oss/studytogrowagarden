@@ -38,8 +38,13 @@ export const AuthModal: React.FC<AuthModalProps> = ({
         {/* Decorative background circle */}
         <div className="absolute -top-12 -right-12 w-32 h-32 bg-emerald-100 rounded-full blur-2xl -z-10" />
 
-        <div className="w-16 h-16 mx-auto rounded-2xl bg-gradient-to-br from-emerald-500 to-green-600 flex items-center justify-center text-3xl shadow-md">
-          🍓
+        <div className="w-16 h-16 mx-auto rounded-full overflow-hidden border-2 border-emerald-400 shadow-md bg-emerald-50">
+          <img 
+            src="/avatar.jpg" 
+            alt="Logo" 
+            className="w-full h-full object-cover" 
+            referrerPolicy="no-referrer" 
+          />
         </div>
 
         <div>

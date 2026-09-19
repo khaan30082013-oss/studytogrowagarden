@@ -84,16 +84,26 @@ export const GardenOverview: React.FC<GardenOverviewProps> = ({
         </div>
 
         {/* Title Signboard on the Big Tree */}
-        <div className="bg-white/95 backdrop-blur-md px-5 py-3.5 sm:px-8 sm:py-4 rounded-3xl border-3 border-emerald-400 shadow-xl max-w-2xl mx-auto -mt-6">
-          <div className="text-emerald-800 text-xs sm:text-sm font-black uppercase tracking-wider mb-1 flex items-center justify-center gap-1.5">
-            <span>✧ NÔNG TRẠI TOÁN HỌC LỚP 8 ✧</span>
+        <div className="bg-white/95 backdrop-blur-md px-5 py-3.5 sm:px-8 sm:py-4 rounded-3xl border-3 border-emerald-400 shadow-xl max-w-2xl mx-auto -mt-6 flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left">
+          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden border-3 border-emerald-500 shadow-md shrink-0 bg-emerald-50 mx-auto">
+            <img 
+              src="/avatar.jpg" 
+              alt="Mascot Study to Grow a Garden" 
+              className="w-full h-full object-cover" 
+              referrerPolicy="no-referrer"
+            />
           </div>
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-emerald-950 tracking-tight leading-snug">
-            “ 𖧷₊˚˖𓍢ִ🍓✧study to grow a garden˚.🎀༘⋆ﾟ＊ ”
-          </h2>
-          <p className="mt-2 text-sm sm:text-base font-semibold text-slate-800 max-w-lg mx-auto">
-            Học từng bài học Toán 8, giải 10 câu hỏi để nhận Xu &amp; XP, chăm sóc luống rau củ và xây dựng khu vườn trong mơ!
-          </p>
+          <div className="flex-1 text-center sm:text-left">
+            <div className="text-emerald-800 text-xs sm:text-sm font-black uppercase tracking-wider mb-1 flex items-center justify-center sm:justify-start gap-1.5">
+              <span>✧ NÔNG TRẠI TOÁN HỌC LỚP 8 ✧</span>
+            </div>
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-emerald-950 tracking-tight leading-snug">
+              “ 𖧷₊˚˖𓍢ִ🍓✧study to grow a garden˚.🎀༘⋆ﾟ＊ ”
+            </h2>
+            <p className="mt-1.5 text-sm sm:text-base font-semibold text-slate-800 max-w-lg">
+              Học từng bài học Toán 8, giải 10 câu hỏi để nhận Xu &amp; XP, chăm sóc luống rau củ và xây dựng khu vườn trong mơ!
+            </p>
+          </div>
         </div>
       </div>
 
